@@ -1,32 +1,45 @@
-<!-- COLOCAR NO REPOSITÓRIO -->
-
-<!-- // git clone site -->
-<!-- git status -->
-<!-- git add . -->
-<!-- git commit -m "first commit"-->
-<!-- git push -->
-
-
-<!-- PEGAR DO REPOSITÓRIO -->
-<!-- GIT CLONE SITE -->
-<!-- ENTRAR MASTER -->
-<!-- GIT PULL -->
-<!-- GIT STATUS -->
-<!-- GIT ADD, COMMIT AND PUSH -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     
-    <title>Document</title>
+    <title>Rotating Navigation</title>
 </head>
 <body>
-    <h1>Project Starter</h1>
-    
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="content">
+            <h1>Amazing!!!</h1>
+            <small>Caio Henrique</small>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis eos blanditiis quidem asperiores assumenda ipsa?</p>
+
+            <h3>Norway</h3>
+            <img src="https://images.unsplash.com/photo-1531366936337-7c912a4589a7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Norway">
+            <p>Lorem ipsum dolor sit.</p>
+        </div>
+    </div>
+
+    <nav>
+        <ul>
+            <li><i class="fas fa-home"></i>Home</li>
+            <li><i class="fas fa-user-alt"></i>About</li>
+            <li><i class="fas fa-envelope"></i>Contact</li>
+        </ul>
+    </nav>
     <script src="script.js"></script>
 </body>
 </html>
